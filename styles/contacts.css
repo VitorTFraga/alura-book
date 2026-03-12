@@ -1,0 +1,54 @@
+.get-in-touch{
+    background-color: var(--white);
+    padding: 1em;
+}
+.get-in-touch__title, .get-in-touch__text{
+    background: var(--blue-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.get-in-touch__title{
+
+    font-size: 18px;
+    font-weight: 700;
+}
+.get-in-touch__text{
+    margin: 1em 0;
+    font-weight: 300;
+}
+.get-in-touch__email{
+    padding: 1em;
+    border: 1px solid cadetblue;
+    border-radius: 24px;
+    width: 90%;
+    color: cadetblue;
+}
+.get-in-touch__email::placeholder{
+    background: url('../src/imgs/Email.svg')  no-repeat;
+    color: cadetblue;
+    padding: 0 2em;
+
+}
+@media screen and (min-width: 1024px) {
+    
+    .get-in-touch{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5em;
+    }
+    .get-in-touch__title{
+        font-size: 24px;
+    }
+    .get-in-touch__email{
+        width: 30%;
+        margin-left: 5em;
+    }
+}
+@media screen and (min-width: 1728px) {
+    
+    .get-in-touch{
+        padding: 5em 20vw;
+    }
+}

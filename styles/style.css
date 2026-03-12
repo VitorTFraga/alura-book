@@ -1,0 +1,26 @@
+@import url('header.css');
+@import url('banner.css');
+@import url('slidingWindow.css');
+@import url('mostSold.css');
+@import url('topics.css');
+@import url('contacts.css');
+@import url('footer.css');
+:root{
+    --background-color: #EBECEE;
+    --white: #FFFFFF;
+    --menu-title: #EB9B00;
+    --blue-gradient: linear-gradient(97.54deg, #002F52 35.49%, #006BB8 165.37%);
+    --main-font: "Poppins", sans-serif;
+    --secundary-font: "Josefin Sans", sans-serif;
+    --blue-font: #002F52;
+    --black-font: #000000;
+    --gray-color: #474646;
+    --light-gray: #858585;
+}
+body{
+
+    font-family: var(--main-font);
+    background-color: var(--background-color);
+    font-size: 16px;
+    font-weight: 400;
+}

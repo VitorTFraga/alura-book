@@ -1,0 +1,125 @@
+.sliding-window__tittle{
+
+    padding: 1em 0 0.5em 0;
+    text-align: center;
+    background-color: var(--white);
+    color: var(--menu-title);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.swiper-slide img{
+
+    width: 100%;
+}
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+}
+.swiper-pagination{
+    position: initial ;
+    margin: 0.7em 0;
+}
+.card{
+
+    background-color: var(--white);
+    margin: 1em;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgb(0,0,0,0.25);
+    padding: 1em;
+}
+.card-discription{
+    display: flex;
+    justify-content: space-between;
+}
+.card-img{
+    padding: 0em 0 1em 2.2em;
+}
+.descripition{
+    padding: 0 2px;
+}
+.card-title{
+    color: var(--menu-title);
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+.card-title_book{
+    color: var(--blue-font);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+.card-text{
+    color: var(--black-font);
+    font-size: 14px;
+    font-weight: 400;
+}
+.card-buttons{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.card-buttons__clickabble{
+
+    display: flex;
+    
+}
+.card-buttons__clickabble__button{
+
+    margin: 0.5em 0.75em;
+}
+.card-buttons__info{
+    margin: 1em 0 0 0;
+    justify-content: center;
+    padding: 1em 2.27em;
+    text-decoration: none;
+    background-color: var(--menu-title);
+    color: var(--white);
+}
+
+@media screen and (min-width: 1024px) {
+    .swiper{
+        width: 60%;
+    }
+    .sliding-window__tittle{
+        font-size: 26px;
+    }
+    .swiper-pagination{
+        margin: 1em 0 2em 0;
+    }
+    .card{
+        width: 40%;
+        margin: 2em auto;
+    }
+}
+@media screen and (min-width: 1728px) {
+    .sliding-window__container{
+        display: flex;
+        margin: 0 10vw 3em 10vw;
+        align-items: center;
+    }
+    .swiper-pagination{
+        margin: 1em 0 ;
+    }
+    .swiper{
+        width: 65%;
+    }
+    .card-title{
+        font-size: 32px;
+    }
+    .card-text{
+        font-size: 16px;
+    }
+    .card{
+        width: 70%;
+        margin-left: 3em;
+        margin-top: 4em;
+    }
+    .descripition{
+
+        margin-right: 1em;
+    }
+}

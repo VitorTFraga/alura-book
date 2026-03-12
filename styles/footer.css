@@ -1,0 +1,36 @@
+hr{
+    margin: 0;
+}
+.footer{
+    background-color: var(--white);
+    padding: 1em;
+}
+.footer__list{
+    display: none;
+}
+@media screen and (min-width: 1024px) {
+    .footer{
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer__list{
+        display: block;
+    }
+    .footer__title{
+        font-size: 24px;
+    }
+    .footer__list__title{
+        color: var(--light-gray);
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    .footer__list__item{
+        align-items: center;
+        margin: 0.6em 0;
+    }
+    .footer__list__link{
+        color: var(--gray-color);
+        text-decoration: none;
+        margin-left: 1.06em;
+    }
+}
