@@ -1,3 +1,4 @@
+![Print do AluraBooks](./src/imgs/image.png)
 # AluraBooks 📚
 
 Este é um projeto de uma landing page para uma livraria online, desenvolvido durante os estudos de Front-End na **Alura**. O objetivo principal foi aplicar conceitos práticos de design responsivo e arquitetura de CSS.
@@ -31,7 +32,7 @@ Abaixo, os principais pontos trabalhados:
 ## 🚀 Como visualizar
 
 Você pode visualizar o projeto finalizado através do link abaixo:
-🔗
+🔗 **[https://alura-book-pied-nu.vercel.app]**
 
 
 ---
